@@ -47,7 +47,7 @@ ImageView code;
                             ClipData data= ClipData.newPlainText("result",result.getContents());
                             clipboardManager.setPrimaryClip(data);
                         }
-                    }).setNegativeButton("cancle", new DialogInterface.OnClickListener() {
+                    }).setNegativeButton("cancel", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     dialog.dismiss();
